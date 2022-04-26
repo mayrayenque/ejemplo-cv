@@ -1,0 +1,211 @@
+body {
+    padding: 25px;
+}
+
+header {
+    background-color: rgb(169, 234, 237);
+    display: flex;
+    padding: 25px;
+    justify-content: space-between;
+}
+
+.foto img {
+    width: 150px;
+    height: 200px;
+    border-radius: 75px;
+
+}
+
+.datos {
+    text-align: center;
+}
+
+.datos h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    word-spacing: 10px;
+}
+
+.datos h3 {
+    font-size: 30px;
+}
+
+.descripcion {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /*justifica el contenido al final*/
+}
+
+.descripcion img {
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0%;
+    padding: 20px 30px;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu {
+    background-color: rgb(28, 68, 68);
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu li:hover {
+    background-color: rgb(227, 221, 33);
+    transform: scale(1.1);
+}
+
+.formacion li {
+    line-height: 30px;
+}
+
+.formacion ul {
+    border-left: 4px solid rgb(1, 66, 20);
+    margin-left: 35px;
+    font-size: 18px;
+
+}
+
+.formacion h2 {
+    background-color: rgb(4, 92, 21);
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: white;
+}
+
+.perfil,
+.adicional,
+.idioma {
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+
+.perfil h2,
+.adicional h2,
+.idioma h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(4, 4, 86);
+    font-weight: bold;
+}
+
+.perfil p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+fieldset legend {
+    background-color: rgb(90, 14, 100);
+    display: inline-block;
+    padding: 0px 10px;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 25px;
+}
+
+fieldset {
+    border: 3px solid rgb(90, 14, 100);
+    background-color: #75c2f9;
+    margin: 30px;
+    padding-bottom: 25px;
+}
+
+fieldset li {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+fieldset ul {
+    width: 900px;
+    margin-left: 300px;
+}
+
+.logos .texto ul {
+    width: 600px;
+
+}
+
+.logos {
+    display: flex;
+    gap: 100px;
+}
+
+.logos img {
+    width: 120px;
+    height: 60px;
+}
+
+.imglogos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    /*dar separación*/
+}
+
+.adicional ul,
+.idioma ul {
+    font-size: 20px;
+}
+
+.adicional ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: #f7d547;
+}
+
+.contacto {
+    display: flex;
+    gap: 100px;
+}
+
+.contacto .mapa {
+    width: 900px;
+}
+
+form label {
+    margin-bottom: 5px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+form textarea {
+    margin-bottom: 20px;
+    height: 200px;
+}
+
+form input {
+    height: 30px;
+}
+
+.enviar {
+    width: 100px;
+    align-self: center;
+    /*alinea al item de forma independiente*/
+    background-color: rgb(19, 25, 204);
+    color: white;
+}
+
+.formulario h2 {
+    color: rgb(59, 9, 225);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
